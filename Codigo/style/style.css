@@ -1,0 +1,73 @@
+/* Estilos para o modo claro (padrão) */
+body.light-mode {
+    background-color: #caeed1 !important;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+/* Estilos para o modo claro (padrão) */
+.card.light-card {
+    background-color: #fabfb1; /* Cor de fundo dos cards no modo claro */
+}
+
+/* Estilos para o modo escuro */
+.card.dark-card {
+    background-color: #7d4d42; /* Cor de fundo dos cards no modo escuro */
+}
+
+
+#themeIcon:hover {
+    cursor: pointer;
+}
+
+.fa-moon{
+    color: white!important;
+}
+
+.navbar-light-mode {
+    background-color: #ffb4a3; /* Cor de fundo no modo claro */
+    color: #c96237!important; /* Cor do texto no modo claro */
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #4b6a52 !important;
+    color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark-mode {
+    background-color: #6b453c; /* Cor de fundo no modo escuro */
+    color: #fff !important; /* Cor do texto no modo escuro */
+}
+
+/* Adicionar estilo para diminuir a altura da navbar em ambos os modos */
+.navbar {
+    min-height: 70px !important; /* Ajuste a altura conforme necessário */
+}
+
+.btn-dark{
+    background-color: #c96237!important;
+}
+
+/* Estilo para os botões de login com cantos arredondados em ambos os modos */
+.nav-link.btn-dark {
+    border-radius: 20px; /* Ajuste o valor conforme necessário para arredondar mais ou menos os cantos */
+}
+
+/* Estilizar o botão de login quando o mouse está em cima */
+.nav-link.btn-dark:hover {
+    background-color: #e77443 !important; /* Cor de fundo quando hover */
+    color: #fff !important; /* Cor do texto quando hover */
+}
+
+/* Estilo para os botões da navbar quando o mouse está em cima */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #b65228 !important; /* Altere esta cor para a cor desejada ao passar o mouse */
+}
