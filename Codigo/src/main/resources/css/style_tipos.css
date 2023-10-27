@@ -1,0 +1,337 @@
+:root {
+    --primary-color: #7bf1a2;
+    --second-color: #ee8cc3;
+    --imagem-fundo-inicio: url("https://i.pinimg.com/564x/9b/f4/c5/9bf4c5aa0f74d2f6b560efe131d36228.jpg");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #555;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+/* titulo e fale conosco */
+a {
+    text-decoration: none;
+    opacity: 0.65;
+    color: black;
+    margin-right: 20px;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+a.btn {
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--primary-color);
+    opacity: 1;
+    transition: all 400ms;
+    max-width: 300px;
+}
+
+a.btn:hover {
+    background-color: var(--second-color);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    /* Isso fará com que a seção ocupe o espaço restante na tela */
+    padding: 100px 80px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 100px;
+    animation: 1s fadein 0.5s forwards;
+    color: white;
+    background-color: #81cc73 !important;
+    z-index: 2;
+    transition: background 0.5s ease;
+}
+
+
+header h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: -15px;
+}
+
+header nav li {
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    header h2 {
+        margin-bottom: 15px;
+    }
+}
+
+.grid-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    max-width: 100%;
+    padding: 5%;
+    text-align: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Permitir que o texto quebre em várias linhas */
+.grid-item p {
+    color: black;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.a_button {
+    margin: 0 !important;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #e7e7e7c9;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: #81cc73;
+    color: black;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Empurra o footer para a parte inferior da página */
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 16px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.6;
+    align-self: center;
+}
+
+@media (max-width: 1100px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer ul li {
+        margin: 0 8px;
+    }
+}
+
+.img_tipos {
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.container {
+    border-radius: 5px;
+    margin: 0 auto;
+    /* Isso centraliza horizontalmente o container */
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.imgs_neuro {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        /* Para dispositivos menores, coloca elementos em coluna */
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    min-height: 100vh;
+    /* Garante que a altura da tela seja pelo menos igual à altura do container para centralização vertical */
+}
+
+.card {
+    flex: 0 0 300px;
+    /* Largura fixa de 300px para todos os cards */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1;
+    }
+}
+
+.container-faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-faq {
+    flex: 1;
+    padding: 20px;
+    background-color: #ee8cc3;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    border: 2px solid #1e201d;
+    border-radius: 10px;
+    min-height: 100px; /* Altura mínima para acomodar o conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-faq p {
+    font-size: 18px; /* Tamanho de fonte responsivo */
+}
+
+/* Estilos adicionais para tornar os retângulos responsivos */
+@media (max-width: 768px) {
+    .div-faq {
+        flex: 2;
+    }
+}
+
+.div-faq p {
+    font-size: 1.1em; /* Exemplo de tamanho de fonte para parágrafos (1.2em = 120% do tamanho padrão) */
+}
+
+.div-faq h1 {
+    font-size: 1.4em; /* Exemplo de tamanho de fonte para títulos h1 (2em = 200% do tamanho padrão) */
+}
+
+.h1-faq{
+    color: black;
+}
+
+.img-pfp{
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.text-neuro{
+    color: black;
+}
+
+.ico-qm:hover{
+    cursor: pointer;
+}
