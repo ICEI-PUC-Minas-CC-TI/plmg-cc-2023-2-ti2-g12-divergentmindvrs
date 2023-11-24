@@ -1,6 +1,6 @@
 # Divergent Mindverse
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+  Nosso projeto, o Divergent MindVerse se trata de um site que oferece informações sobre toda essa comunidade de pessoas neuro divergentes, informações essas que servem de ajuda tanto para aqueles que possuem alguma neuro divergência ou para pessoas próximas das mesmas. Nossa ideia com esse site é desmentir vários mitos e crenças populares das pessoas sobre esse situação, também oferecemos suporte para perguntas frequentes com a nossa IA apelidada como DINO, que pode ser acessado a partir do cabeçalho do site.
 
 ## Alunos integrantes da equipe
 
@@ -11,8 +11,8 @@
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* Marco Paulo Soares Gomes
+* Sandro Jerônimo de Almeida
 
 ## Instruções de utilização
 
