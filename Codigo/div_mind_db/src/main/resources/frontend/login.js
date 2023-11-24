@@ -102,7 +102,7 @@ function processaFormLogin(event) {
 
     resultadoLogin = loginUser(username, password);
     if (resultadoLogin) {
-        window.location.href = 'index.html';
+        window.location.href = 'perfil.html';
     } else { //se login falhar
         alert('Usuário ou senha incorretos');
     }
