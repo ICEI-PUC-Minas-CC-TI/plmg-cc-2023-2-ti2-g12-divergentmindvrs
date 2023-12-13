@@ -1,31 +1,28 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: DivergentMindverse
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Gonçalves
+    given-names: Matheus Henrique
+  - family-names: Alexandre Verly Borjaili
+    given-names: Nagib
+  - family-names: Martins Oliveira
+    given-names: Pedro Felipe
+  - family-names: Lemos de Lima
+    given-names: Suzane
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Soares Gomes
+    given-names: Marco Paulo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jerônimo de Almeida
+    given-names: Sandro
 keywords:
-  - 
-  - 
-repository-code: 
+  - Neurodivergentes
+  - Suporte
+  - Neurotípicos
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-2023-2-ti2-g12-divergentmindvrs
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2023-12-12
